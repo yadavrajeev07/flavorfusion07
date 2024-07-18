@@ -1,7 +1,4 @@
-body{
-    
-    margin: 0%;
-}
+
 .header{
     background-color: rgb(206, 211, 140);
     display: flex;
@@ -23,6 +20,7 @@ body{
     justify-content: left;
 }
 .menu{
+    display: block;
     font-family: cursive;
    align-items: center;
     display: flex;
@@ -41,15 +39,15 @@ body{
     zoom: 120%;
 }
 .gif{
-    padding: 0.5%;
+    background-color: rgb(150, 183, 183);
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    
+    justify-content: center;
+   
 }
 .giff{
-    display: inline-block; 
+    margin-left: 7%;
 }
 .mainimg{
     margin-top: 6%;
@@ -143,9 +141,15 @@ nav{
     background-color: rgb(173, 245, 245);
     margin-top: 1%;
     align-items: center;
-    display: flex;
+    display: ruby;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
     
 }
+
+
+body {
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
